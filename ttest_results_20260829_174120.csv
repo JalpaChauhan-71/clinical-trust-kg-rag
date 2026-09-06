@@ -1,0 +1,13 @@
+metric,comparison,KG-RAG_mean,Standard RAG_mean,t_statistic,p_value,significant_at_0.05,LLM-only_mean
+atcs,KG-RAG vs Standard RAG,31.143,0.0,3.038,0.0385,True,
+atcs,KG-RAG vs LLM-only,31.143,,3.038,0.0385,True,0.0
+hallucination_rate,KG-RAG vs Standard RAG,17.794,8.889,0.68,0.5336,False,
+hallucination_rate,KG-RAG vs LLM-only,17.794,,-8.801,0.0009,True,100.0
+clinical_f1,KG-RAG vs Standard RAG,0.822,0.911,-0.681,0.5335,False,
+clinical_f1,KG-RAG vs LLM-only,0.822,,8.803,0.0009,True,0.0
+rouge_l,KG-RAG vs Standard RAG,0.117,0.132,-1.22,0.2894,False,
+rouge_l,KG-RAG vs LLM-only,0.117,,7.864,0.0014,True,0.0
+safety_binary_pass,KG-RAG vs Standard RAG,0.6,0.867,-1.089,0.3375,False,
+safety_binary_pass,KG-RAG vs LLM-only,0.6,,3.087,0.0367,True,0.0
+latency,KG-RAG vs Standard RAG,28.207,6.097,1.451,0.2204,False,
+latency,KG-RAG vs LLM-only,28.207,,-0.041,0.9693,False,29.411
